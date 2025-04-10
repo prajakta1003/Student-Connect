@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+.page-content {
+  padding-top: 100px; /* Adjust based on your Navbar height */
+}
