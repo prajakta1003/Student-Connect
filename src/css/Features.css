@@ -209,3 +209,52 @@
     background: linear-gradient(135deg, #00c6ff, #0072ff);
   }
   
+  @media screen and (max-width: 1024px) {
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .card__title {
+      font-size: 1.2rem;
+    }
+  
+    .feature-intro h2 {
+      font-size: 1.8rem;
+    }
+  
+    .feature-intro p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  
+    .main-feature {
+      padding: 2rem 1rem;
+    }
+  
+    .card__frame img {
+      width: 100px;
+    }
+  
+    .card__title {
+      font-size: 1.1rem;
+    }
+  
+    .card__content {
+      padding: 1rem;
+    }
+  
+    .feature-intro h2 {
+      font-size: 1.6rem;
+    }
+  
+    .feature-intro p {
+      font-size: 0.95rem;
+      padding: 0 1rem;
+    }
+  }
+  

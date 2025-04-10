@@ -6,9 +6,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; 
 }
 .page-content {
   color: white;
   min-height: 100vh;
-  padding-top: 100px; /* match navbar height */
+  padding-top: 80px; /* match navbar height */
+
 }
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+

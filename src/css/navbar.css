@@ -9,7 +9,7 @@
   top: 0;
   width: 100%;
   z-index: 999;
-  background-color: white !important; /* 👈 FORCE white */
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc); /* or your choice */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 

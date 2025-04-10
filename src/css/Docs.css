@@ -16,18 +16,13 @@
     display: grid;
     align-content: center;
     gap: 2rem;
-  
-    /* ❌ REMOVE these if present */
-    /* margin-top: 60px;
-       padding-top: 100px; */
-  
-    padding: 2rem; /* keep this for spacing inside */
+    padding: 2rem; 
     font-family: "Exo 2", sans-serif;
     color: var(--color);
     background: var(--bgColor);
   
     position: relative;
-    z-index: 1; /* ✅ Make sure it goes *under* navbar */
+    z-index: 1; 
   }
 
       
@@ -95,3 +90,55 @@ ol li .descr { font-size: 0.8rem; font-weight: 300 }
 
 .credits { margin-top: 2rem; text-align: right }
 .credits a { color: var(--color) }
+
+.docs-main {
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom right, #c2e9fb, #a1c4fd);
+  min-height: 100vh;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.docs-main h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #1a237e;
+}
+
+.docs-intro {
+  font-size: 1.1rem;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto 2.5rem auto;
+  color: #333;
+  line-height: 1.8;
+}
+
+.docs-main h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #0d47a1;
+}
+
+/* 🌐 Responsive Styles for Mobile */
+@media screen and (max-width: 600px) {
+  .docs-main {
+    padding: 2rem 1rem;
+  }
+
+  .docs-main h1 {
+    font-size: 2rem;
+  }
+
+  .docs-intro {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .docs-main h2 {
+    font-size: 1.5rem;
+  }
+}
