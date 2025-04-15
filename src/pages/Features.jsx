@@ -5,7 +5,6 @@ const Features = () => {
   return (
     <div className="main-feature">
       <div className="container">
-
         <div className="feature-intro">
           <h2>Code with rich features</h2>
           <p>
@@ -30,10 +29,7 @@ const Features = () => {
             <div className="card__content">
               <h2>Design</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                ipsum veritatis id quia cupiditate sed architecto aliquam nostrum
-                unde nam minima voluptas dicta, beatae sint reprehenderit sit
-                ducimus officiis ratione?
+                Create stunning layouts and interfaces using built-in visual tools and flexible styling options tailored for developers.
               </p>
             </div>
           </li>
@@ -53,10 +49,7 @@ const Features = () => {
             <div className="card__content">
               <h2>Code</h2>
               <p>
-                Dignissimos ipsam culpa vitae vel hic harum omnis doloremque
-                debitis laudantium neque quos iure voluptates quidem ratione esse
-                modi, rerum illum facere eius accusantium dolorem incidunt beatae
-                officiis voluptatem? Nostrum.
+                Write and organize your code with ease. Syntax highlighting, auto-complete, and version control are all at your fingertips.
               </p>
             </div>
           </li>
@@ -70,16 +63,14 @@ const Features = () => {
                   width="120"
                 />
               </div>
-              <h2 className="card__title">Launch</h2>
+              <h2 className="card__title">AI Code Review</h2>
             </div>
             <div className="card__overlay"></div>
             <div className="card__content">
-              <h2>Launch</h2>
+              <h2>AI Code Review</h2>
               <p>
-                Asperiores, harum dignissimos at neque quaerat, excepturi, ipsa in
-                consectetur blanditiis tempore error! Libero fuga possimus qui
-                saepe temporibus praesentium, ut ratione facere rem distinctio,
-                beatae omnis officiis illum animi.
+              Get instant feedback as you code. Our smart reviewer highlights issues, offers suggestions, and boosts your code quality in real-time.
+
               </p>
             </div>
           </li>
@@ -144,8 +135,9 @@ const Features = () => {
               </p>
             </div>
           </li>
+          
+         
         </ul>
-
       </div>
     </div>
   );

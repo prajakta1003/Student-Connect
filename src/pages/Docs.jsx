@@ -14,7 +14,7 @@ const Docs = () => {
         <li>
           <div className="icon"><i className="fa-solid fa-bicycle"></i></div>
           <div className="title">Step 1</div>
-          <div className="descr">Download the appropriate installer for your OS from the homepage.</div>
+          <div className="descr">Download the appropriate installer for your Windows/OS from the homepage.</div>
         </li>
         <li>
           <div className="icon"><i className="fa-solid fa-car"></i></div>
